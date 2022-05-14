@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.7)), url('../src/img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding: 40px 60px 10px 60px;
+}
+
+header{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+header > img{
+    width: auto;
+    height: 80%;
+    margin-left: 60px;
+}
+
+ul{
+    list-style: none;
+    margin-right: 60px;
+}
+
+.a-header{
+    text-decoration: none;
+    color: white;
+    padding: 4px 5px 4px 5px;
+    font-weight: normal;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+
+
+.selected{
+    color: red;
+    font-weight: 700;
+}
+
+.a-header:hover{
+    background-color: white;
+    color: red;   
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.game-logo{
+    max-width: 100%;
+    height: 150px;
+    filter: drop-shadow(1px 1px 1px black);
+    margin-bottom: 10px;
+}
+
+.desc{
+    width: 80%;
+    color: white;
+    font-weight:600;
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.plataforms{
+    margin-bottom: 20px;
+}
+
+.tag{
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.ps-logo{
+    width: 120px;
+    padding: 0 20px 0 20px;
+}
+
+.fill-button{
+    background-color: #b60312;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    border: 2px solid #F20519;;
+    height: 55px;
+    width: 300px;
+
+    padding-bottom: 5px;
+
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.5s;
+    filter: drop-shadow(0 0 20px #f84251bb);
+}
+
+.fill-button:hover{
+    background-color: #F20519;
+    border: 2px solid  #b60312 ;
+    
+}
+
+
+.links-content{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.spider-logo{
+    max-width: 100%;
+    height: 300px;
+   
+    filter: drop-shadow(0 0 50px #f842518f);
+   
+    transform: translateY(0);
+    animation: float 5s ease-in-out infinite;
+}
+
+.social-links{
+    width: 1%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+i{
+    font-size: 36px;
+    color: white;
+    transition: all 0.5s;
+}
+
+i:hover{
+    color: #F20519;
+    cursor: pointer;
+}
+
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+footer{
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+
+.credit-link{
+    color: #ffff;
+}

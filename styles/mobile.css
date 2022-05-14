@@ -1,0 +1,193 @@
+@media (max-width: 1200px){
+    body{
+        padding: 40px 20px 10px 20px;
+        background-size: auto 100%;
+        
+
+        animation: movebg 10s ease-in-out infinite;
+    }
+
+    @keyframes movebg{
+        0% {
+            background-position: 55% 10%;
+        }
+
+        50%{
+            background-position:center;
+        }
+
+        100%{
+            background-position: 55% 10%;
+        }
+    }
+
+    .marvel-logo{
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(33, 43, 64);
+    }
+
+    ul{
+        margin-right: 0;
+    }
+
+    .a-header{
+        margin-left: 5px;
+    }
+
+    .main-content{
+        width: 100%;
+    }
+
+    .desc{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .plataforms{
+        margin-bottom: 60px;
+    }
+
+    .links-content{
+        display: none;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 800px){
+    body{
+        padding: 40px 20px 10px 20px;
+        background-size: auto 100%;
+        
+
+        animation: movebg 10s ease-in-out infinite;
+    }
+
+    @keyframes movebg{
+        0% {
+            background-position: 55% 10%;
+        }
+
+        50%{
+            background-position:center;
+        }
+
+        100%{
+            background-position: 55% 10%;
+        }
+    }
+
+    .marvel-logo{
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(33, 43, 64);
+    }
+
+    ul{
+        margin-right: 0;
+    }
+
+    .a-header{
+        margin-left: 5px;
+    }
+
+    .main-content{
+        width: 100%;
+    }
+
+    .desc{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .plataforms{
+        margin-bottom: 60px;
+    }
+
+    .links-content{
+        display: none;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 428px){
+    body{
+        padding: 20px 20px 10px 20px;
+        background-size: auto 100%;
+        background-position: 55% 10%;
+
+        animation: none;
+    }
+
+    .marvel-logo{
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(33, 43, 64);
+    }
+
+    ul{
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .a-header{
+        margin-left: 5px;
+    }
+
+    .main-content{
+        width: 100%;
+    }
+
+    .desc{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .plataforms{
+        margin-bottom: 20px;
+    }
+
+    .links-content{
+        display: none;
+    }
+
+    .game-logo{
+        height: 120px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .ps-logo{
+        padding: 10px;
+    }
+
+    .fill-button{
+        margin-bottom: 30px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+}
