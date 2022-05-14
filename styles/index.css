@@ -152,7 +152,26 @@ main{
     filter: drop-shadow(0 0 50px #f842518f);
    
     transform: translateY(0);
-    animation: float 5s ease-in-out infinite;
+    animation: pulse 5s ease-in-out infinite, float 5s ease-in-out infinite;
+   
+}
+
+@keyframes pulse {
+    0% {filter: drop-shadow(0 0 50px #ff0e22d5);}
+    50%{filter: drop-shadow(0 0 50px #ffffff86);}
+    100%{filter: drop-shadow(0 0 50px #ff0e22d5);}
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .social-links{
@@ -179,17 +198,7 @@ i:hover{
 }
 
 
-@keyframes float{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-30px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
+
 
 footer{
     height: 20px;
